@@ -1,0 +1,22 @@
+{
+  "name": "pinflow-backend",
+  "version": "2.0.0",
+  "description": "PinFlow – Amazon scraper + Claude AI copywriting + image composition serverless API",
+  "main": "index.js",
+  "engines": {
+    "node": ">=18.x"
+  },
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.24.0",
+    "@sparticuz/chromium": "^123.0.0",
+    "playwright-core": "^1.44.0",
+    "sharp": "^0.33.0"
+  },
+  "devDependencies": {
+    "vercel": "^34.0.0"
+  }
+}
