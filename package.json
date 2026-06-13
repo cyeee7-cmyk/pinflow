@@ -15,8 +15,5 @@
     "@sparticuz/chromium": "^123.0.0",
     "playwright-core": "^1.44.0",
     "sharp": "^0.33.0"
-  },
-  "devDependencies": {
-    "vercel": "^34.0.0"
   }
 }

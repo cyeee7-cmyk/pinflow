@@ -1,3 +1,9 @@
+export const config = {
+  runtime: "nodejs18.x",
+  maxDuration: 60,
+  memory: 1024,
+};
+
 /**
  * api/image-v2.js
  *
