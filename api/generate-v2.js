@@ -1,8 +1,3 @@
-export const config = {
-  runtime: "@vercel/node@3.x",
-  maxDuration: 60,
-  memory: 1024,
-};
 
 /**
  * api/generate-v2.js
