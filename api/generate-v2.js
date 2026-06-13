@@ -1,5 +1,5 @@
 export const config = {
-  runtime: "nodejs18.x",
+  runtime: "@vercel/node@3.x",
   maxDuration: 60,
   memory: 1024,
 };
